@@ -1,0 +1,181 @@
+local notification = Instance.new("Sound")
+notification.Parent = game:GetService("SoundService")
+notification.SoundId = "rbxassetid://9086208751"
+notification.Volume = 10
+
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "http://www.roblox.com/asset/?id=15946133805";
+      Title = "Blox Hub", 
+      Text = "by madbyHuk";
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "http://www.roblox.com/asset/?id=15946133805";
+      Title = "Blox Hub", 
+      Text = "by madbyHuk";
+notification:Play()
+})
+  
+  loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
+
+  MakeWindow({
+  Hub = {
+    Title = "Blox Hub ( Blox fruits Update 20)",
+    Animation = "by :madbyHub"
+  },
+  Key = {
+    KeySystem = true,
+    Title = "Key System",
+    Description = "",
+    KeyLink = "NokeyYes",
+    Keys = {"NokeyYes"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied to Clipboard"
+    }
+  }
+})
+
+MinimizeButton({
+  Image = "http://www.roblox.com/asset/?id=15946133805",
+  Size = {40, 40},
+  Color = Color3.fromRGB(10, 10, 10),
+  Corner = true,
+  Stroke = false,
+  StrokeColor = Color3.fromRGB(255, 0, 0)
+})
+
+ local Main = MakeTab({Name = "Main"})
+
+ AddButton(Main, {
+  Name = "Annie Hub",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+    
+  end
+})
+  
+ AddButton(Main, {
+  Name = "Mitien Hub",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/MTienHub/main/Loader.lua"))()
+    
+    
+  end
+})
+  
+ AddButton(Main, {
+  Name = " Full Hub",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/Fullloader"))()
+    
+    
+  end
+})
+  
+ AddButton(Main, {
+  Name = "MTriet Hub",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))() 
+    
+    
+  end
+})
+  
+local Main = MakeTab({Name = "Main"})
+
+AddButton(Main, {
+  Name = "bounty Hub script (Recommed level max)",
+  Callback = function()
+    getgenv().Config = {
+    ["Team"] = "Pirates",
+    ["Webhook"] = {
+        ["Enable"] = false,
+        ["Url"] = ""
+    },
+    ["Skip"] = {
+        ["V4"] = true,
+        ["Fruit"] = {
+            "Leopard-Leopard",
+            "Venom-Venom",
+            "Dough-Dough",
+            "Portal-Portal"
+        }
+    },
+    ["Chat"] = {
+        ["Enable"] = false,
+        ["Content"] = {"Hello me use MTriet Hub Auto Bounty"}
+    },
+    ["Misc"] = {
+        ["Hide If Low Health"] = true,
+        ["Hide Health"] = {4000,5000},
+        ["Lock Camera"] = true,
+        ["FPS Boost"] = false,
+        ["White Screen"] = false,
+        ["Bypass TP"] = true,
+        ["Spam All Skill On V4"] = true,
+        ["Gun Method"] = false
+    },
+    ["Weapons"] = {
+        ["Melee"] = {
+            ["Enable"] = true,
+            ["Delay"] = 2.5,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+                ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["V"] = {["Enable"] = false, ["HoldTime"] = 0}
+            }
+        },
+        ["Blox Fruit"] = {
+            ["Enable"] = true,
+            ["Delay"] = 3,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["V"] = {["Enable"] = true, ["HoldTime"] = 2},
+                ["F"] = {["Enable"] = false, ["HoldTime"] = 0}
+            }
+        },
+        ["Sword"] = {
+            ["Enable"] = true,
+            ["Delay"] = 1.5,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 1},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0}
+            }
+        },
+        ["Gun"] = {
+            ["Enable"] = true,
+            ["Delay"] = 1.2,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0}
+            }
+        }
+    }
+}
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Hunt/main/AutoBountyV2.lua"))()
+  end
+})
+  
+AddButton(Main, {
+  Name = "Domadic Hub",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "FTS X Hub",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tufreescript/FTS-X-Hub/main/FTSXHUB%20V1'))()
+    
+  end
+})
+
